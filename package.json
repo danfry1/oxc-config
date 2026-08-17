@@ -1,0 +1,47 @@
+{
+  "name": "@danfry/oxc-config",
+  "version": "0.1.0",
+  "description": "Shared strict oxlint and oxfmt configuration. Every non-conflicting rule on by default; projects opt out where they must.",
+  "keywords": [
+    "config",
+    "format",
+    "lint",
+    "oxc",
+    "oxfmt",
+    "oxlint",
+    "strict"
+  ],
+  "license": "MIT",
+  "author": "Daniel Fry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danfry1/oxc-config.git"
+  },
+  "files": [
+    "oxlintrc.json",
+    "oxlintrc.library.json",
+    "oxfmtrc.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "exports": {
+    "./oxlintrc.json": "./oxlintrc.json",
+    "./oxlintrc.library.json": "./oxlintrc.library.json",
+    "./oxfmtrc.json": "./oxfmtrc.json",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "check": "bun run verify.ts"
+  },
+  "devDependencies": {
+    "oxfmt": "0.63.0",
+    "oxlint": "1.78.0",
+    "oxlint-tsgolint": "7.0.2001"
+  },
+  "peerDependencies": {
+    "oxfmt": ">=0.63.0",
+    "oxlint": ">=1.78.0"
+  },
+  "packageManager": "bun@1.3.14"
+}

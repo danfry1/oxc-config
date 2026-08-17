@@ -1,0 +1,10 @@
+{
+  "extends": ["./oxlintrc.json"],
+  "rules": {
+    "import/no-nodejs-modules": "off",
+    "node/no-sync": "off",
+    "unicorn/no-null": "off",
+    "unicorn/no-instanceof-builtins": "off",
+    "unicorn/custom-error-definition": "off"
+  }
+}
