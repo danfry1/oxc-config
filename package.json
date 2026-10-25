@@ -35,9 +35,9 @@
     "check": "bun run verify.ts"
   },
   "devDependencies": {
-    "oxfmt": "0.63.0",
-    "oxlint": "1.78.0",
-    "oxlint-tsgolint": "7.0.2001"
+    "oxfmt": "0.73.0",
+    "oxlint": "1.88.0",
+    "oxlint-tsgolint": "7.0.2004"
   },
   "peerDependencies": {
     "oxfmt": ">=0.63.0",
